@@ -10,6 +10,8 @@ Obs use o promt e exiba os resultado em alert.
 
 */
 
+
+//Entrada de dados
 let nome1 = "";
 let nota1, nota2, nota3;
 
@@ -21,11 +23,15 @@ nota2 = parseFloat(prompt("Digite a Nota 2: "));
 
 nota3 = parseFloat(prompt("Digite a Nota 3: "));
 
+
+//Processar
 let media = 0;
 media = (nota1 + nota2 + nota3) / 3;
 
 let mensagem = "";
 
+
+//Comparar
 if (media >= 7) {
     mensagem = ("Aprovado");
 
