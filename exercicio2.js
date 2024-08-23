@@ -11,4 +11,25 @@ conforme abaixo
 6. Sexta-feira
 7. Sábado
 */
+let dia_escolhido = prompt("Informe o numero do dia da semana a exibir: ");
+let mensagem = "";
 
+if (dia_escolhido == 1) {
+    alert("O Dia escolhido é DOMINGO!!");
+  
+
+} else if (dia_escolhido == 2) {
+
+} else if (dia_escolhido == 3) {
+
+} else if (dia_escolhido == 4) {
+
+} else if (dia_escolhido == 5) {
+
+} else if (dia_escolhido == 6) {
+
+} else if () {
+
+} else {
+
+}
