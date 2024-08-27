@@ -4,7 +4,7 @@ let numero2 = parseInt(prompt("Informe o Segundo Numero:"));
 let numero3 = parseInt(prompt("Informe o Terceiro Numero:"));
 let maior, menor;
 
-if ((numero1 >= numero2) && (numero2 >= numero3)) {
+if ((numero1 >= numero2) && (numero1 >= numero3)) {
     maior = numero1
 }
 else if ((numero2 >= numero1) && (numero2 >= numero3)) {
@@ -14,7 +14,7 @@ else if ((numero2 >= numero1) && (numero2 >= numero3)) {
     maior = numero3
    
 }
-if ((numero1 <= numero2) && (numero2 <= numero3)) {
+if ((numero1 <= numero2) && (numero1 <= numero3)) {
     menor = numero1
 }
 else if ((numero2 <= numero1) && (numero2 <= numero3)) {
