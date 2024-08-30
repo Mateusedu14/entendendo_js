@@ -13,4 +13,4 @@ while (usuario == senha) {
     senha = prompt("Informe a sua senha:");
 }
 
-alert("Cadastrado com sucesso!");
+alert("Cadastrado com sucesso!")
