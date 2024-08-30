@@ -20,3 +20,4 @@ do {
     continuar = prompt("Você deseja gerar outra Tabuada? S=Sim e N=Não")
 
 } while (continuar == "S");
+
